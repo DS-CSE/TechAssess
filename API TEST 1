@@ -14,28 +14,15 @@ POST - https://demo.docusign.net/restapi/accounts/12345678/envelopes
             {
               "xPosition": "100",
               "yPosition": "100",
-              "documentId": "2",
+              "documentId": "1",
               "pageNumber": "1"
             }
           ]
         }
       },
-      {
-        "email": "",
-        "name": "Bruce Wayne",
-        "recipientId": 1, 
-        "tabs": {
-          "signHereTabs": [
-            {
-              "xPosition": "-95",
-              "yPosition": "48",
-              "documentId": "1", 
-              "pagenumber": "2"
-            }]
-        }
-      }
     ]
   },
+"emailSubject": "This is a test envelope",
   "documents": [
     {
       "documentId": "1",
